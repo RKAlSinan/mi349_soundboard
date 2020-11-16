@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card Layout</title>
+</head>
+
+<body>
+    <div class="card">
+        <img class="avatar" id="alsinan-avatar" src="reem.png" alt="Reem AlSinan" />
+        <h1>Reem AlSinan</h1>
+        <h2>Sound Board</h2>
+
+        <ul class="contacts">
+        <nav id="nav1">
+            <button on click="loadContent(1)"> Section 1</button>
+            <button on click="loadContent(2)"> Section 2</button>
+            <button on click="loadContent(3)"> Section 3</button>
+
+            </ul>
+        </nav>
+        <div id="div1">EE</div>
+
+    </div>
+
+<script>
+var bleep = new Audio ();
+bloop_x.src = "bloop_x.wav";
+function loadContent (num) { 
+    bloop_x.play();
+    var div1=document.getElementById("div1");
+    div1.innerHTML ="Loaded content for section"+num;
+}
+
+
+</script>
+</body>
+</html>
