@@ -8,33 +8,25 @@
 </head>
 
 <body>
+    
     <div class="card">
         <img class="avatar" id="alsinan-avatar" src="reem.png" alt="Reem AlSinan" />
         <h1>Reem AlSinan</h1>
         <h2>Sound Board</h2>
 
-        <ul class="contacts">
-        <nav id="nav1">
-            <button on click="loadContent(1)"> Section 1</button>
-            <button on click="loadContent(2)"> Section 2</button>
-            <button on click="loadContent(3)"> Section 3</button>
+        
+        <nav class="contacts">
+        
+        
+            <button onclick="playBtnSound(1)"> Bloop</button>
+            <button onclick="playBtnSound1(2)"> Phase</button>
+            <button onclick="playBtnSound2(3)"> Zag</button>
 
-            </ul>
+            
         </nav>
-        <div id="div1">EE</div>
-
+        
     </div>
 
-<script>
-var bleep = new Audio ();
-bloop_x.src = "bloop_x.wav";
-function loadContent (num) { 
-    bloop_x.play();
-    var div1=document.getElementById("div1");
-    div1.innerHTML ="Loaded content for section"+num;
-}
-
-
-</script>
+<script src="soundboard.js"> </script>
 </body>
 </html>

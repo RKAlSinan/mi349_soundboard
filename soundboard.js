@@ -1,8 +1,15 @@
 
 
-var bleep = new Audio ();
-bloop_x.src = "bloop_x.wav";
-function loadContent (num) { 
-    bloop_x.play();
-    var div1=document.getElementById("div1");
-    div1.innerHTML ="Loaded content for section"+num;
+
+var bloop = new Audio();
+bloop.src="bloop.wav";
+function playBtnSound(){    bloop.play();}
+
+var phase = new Audio();
+phase.src="phase.wav";
+function playBtnSound1(){   phase.play();} 
+
+
+var zag = new Audio();
+zag.src="zag.wav";
+function playBtnSound2(){   zag.play();}

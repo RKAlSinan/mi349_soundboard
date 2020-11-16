@@ -1,6 +1,6 @@
 body {
 
-background-color: beige;
+background-color: rgb(209, 248, 255);
 font-family: sans-serif, Helvetica, Arial;
 color: #332;
 margin-top: 100px;
@@ -19,6 +19,7 @@ margin: 15px  0;
 
 h2 { 
 margin: 0;
+margin-bottom: 20px;
 font-weight: 100;
 }
 
@@ -47,20 +48,16 @@ margin-top: -50px;
 margin: 0;
 padding: 0;
 list-style-type: none;
+margin-bottom: 40px;
 
 }
 
-.contacts li {
+.contacts button {
 
-width: 30px;
+
 display: inline-block;
 padding: 40px 40px;
 }
 
-.contacts li a img:hover {
-opacity: 0.5;
 
- transition: opacity ease-in-out 0.1s;
-
-}
 
